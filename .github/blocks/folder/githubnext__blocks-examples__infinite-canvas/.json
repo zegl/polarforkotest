@@ -1,0 +1,40 @@
+{
+  "items": {
+    "0": {
+      "id": 0,
+      "type": "text",
+      "text": "Hello world",
+      "position": [
+        2740,
+        2200
+      ],
+      "dimensions": [
+        200,
+        100
+      ]
+    },
+    "1": {
+      "type": "file",
+      "path": "README.md",
+      "position": [
+        2110,
+        2000
+      ],
+      "dimensions": [
+        500,
+        360
+      ],
+      "block": {
+        "type": "file",
+        "id": "code-block",
+        "title": "Code block",
+        "description": "A basic code block",
+        "owner": "githubnext",
+        "repo": "blocks-examples",
+        "sandbox": false,
+        "entry": "/src/blocks/file-blocks/code/index.tsx"
+      },
+      "id": 1
+    }
+  }
+}
